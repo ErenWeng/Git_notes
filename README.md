@@ -155,7 +155,7 @@
 ### 分支
 
 - 查看、移動
-  - `git branch` 查看分枝及head的位置
+  - `git branch` 查看分支及head的位置
   - `git checkout <branch_or_commit>` 將head切換到某分支/commit
   - `git branch -f <branch> <commit>` 移動某分支到某commit（如果此分支不存在就會建立新的）
 
@@ -173,6 +173,6 @@
   - `git merge <branch>` 合併分支
   - `git merge <branch> --no-ff` 保留分支原樣(不使用快轉模式Fast Forward合併)
   - `git rebase <branch>` 將當前分支接到某分支之後，並且會被重新分配一個commit
-  - `git rebase <branch_1> <branch_2>` 將分支2接到分之1之後
+  - `git rebase <branch_1> <branch_2>` 將分支2接到分之1支後
   
-[Git遊戲區](https://learngitbranching.js.org/)
+[Git遊戲：learngitbranching](https://learngitbranching.js.org/)
