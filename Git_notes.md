@@ -101,8 +101,8 @@
 
 - git reset的還原
 
-  - `git reset head` 還原前次版本
-  - `git reset head <file>` 只還原某個檔案前次版本
+  - `git reset head` 還原成前次版本
+  - `git reset head <file>` 只還原某個檔案成前次版本
   - `git reset <commit>` 回到某次commit的版本
   - `git reset <commit_or_branch>^` 退回此commit/貼紙1次前的版本
   - `git reset <commit_or_branch>^^` 退回此commit/貼紙2次前的版本
