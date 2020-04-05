@@ -173,4 +173,17 @@
   - `git rebase <branch>` 將當前分支接到某分支之後，並且會被重新分配一個commit
   - `git rebase <branch_1> <branch_2>` 將分支2接到分之1支後
   
+### 排除
+
+- 某些機密/編譯檔案不想放進版本控制裡面
+  - `touch .gitignore` 在專案目錄放進這個檔案
+  - 編輯.gitgnore檔案，直接寫入檔案位置
+
+    ```gitgnore
+    # 忽略 config 目錄下的 database.yml 檔案
+    config/database.yml
+    # 忽略所有 db 目錄下附檔名是 .sqlite3 的檔案
+    /db/*.sqlite3
+    ```
+
 [Git遊戲：learngitbranching](https://learngitbranching.js.org/)
